@@ -10,8 +10,12 @@
     text-align: center;
     font-size: 12px;
     line-height: 1.42857;
-    border-color: honeydew;
+    border: 2px solid honeydew;
     margin: 3px;
+}
+
+li {
+    padding: 10px;
 }
 
 li:hover {
