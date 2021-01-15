@@ -1,0 +1,29 @@
+hr {
+    width: 65%;
+    background-color: darkgray;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h4 {
+    color: gray;
+}
+
+.home {
+    background-color: black;
+    padding: 80px 30px 30px 60px;
+}
+
+.icon {
+    padding: 0px;
+}
+
+img {
+    padding: 50px;
+}
+
+img:hover {
+    cursor: pointer;
+}

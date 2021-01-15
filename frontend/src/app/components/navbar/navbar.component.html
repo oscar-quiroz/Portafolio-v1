@@ -1,19 +1,31 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar sticky-top navbar-expand-md navbar-dark">
+
     <a class="navbar-brand" href="#">
-      <img src="https://www.flaticon.com/svg/vstatic/svg/1177/1177568.svg?token=exp=1610721308~hmac=86a06cb0329170fa4777a9551cac5077" alt="logo" style="width:30;height:30px;">
+        <img src="https://www.flaticon.com/svg/vstatic/svg/1177/1177568.svg?token=exp=1610721308~hmac=86a06cb0329170fa4777a9551cac5077" alt="logo" style="width:40;height:40px;padding-right:125px ;">
     </a>
-    <button class="navbar-toggler collapsed" type="button" (click)="toggleState()">
-      <span class="navbar-toggler-icon"></span>
+
+
+    <div class="navbar-collapse justify-content-center" [ngClass]="{ 'collapse': isCollapse } ">
+        <ul class="navbar-nav color">
+            <li routerLinkActive="active" class="nav-item ">
+                <a class="nav-link " routerLink="/lugares ">Portafolio <span class="sr-only ">(current)</span></a>
+            </li>
+            <li routerLinkActive="active " class="nav-item ">
+                <a class="nav-link " routerLink="/contacto ">Habilidades</a>
+            </li>
+            <li routerLinkActive="active " class="nav-item ">
+                <a class="nav-link " routerLink="/contacto ">Contacto</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="derecha">
+        <button type=" button " class="btn btn-secondary btn-circle "> <i class="fa fa-instagram "></i> </button>
+        <button type="button " class="btn btn-secondary btn-circle "><i class="fa fa-facebook "></i></button>
+        <button type="button " class="btn btn-secondary btn-circle "><i class="fa fa-twitter "></i></button>
+        <button class="navbar-toggler btn btn-secondary btn-circle justify-content-right " type="button " (click)="toggleState() ">
+      <i class="fa fa-bars "></i>
     </button>
-  
-    <div class="navbar-collapse" [ngClass]="{ 'collapse': isCollapse }">
-      <ul class="navbar-nav mr-auto">
-        <li routerLinkActive="active" class="nav-item">
-          <a class="nav-link" routerLink="/lugares">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li routerLinkActive="active" class="nav-item">
-          <a class="nav-link" routerLink="/contacto">Contacto</a>
-        </li>
-      </ul>
-      </div>
+    </div>
 </nav>
