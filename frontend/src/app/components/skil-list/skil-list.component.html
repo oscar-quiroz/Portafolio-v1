@@ -1,4 +1,4 @@
-<div class="container">
+<div id="Habilidades" class="container">
     <div class="text-center titulo">
         <h1>Habilidades</h1>
     </div>
@@ -6,7 +6,9 @@
 
     <div class="grid">
         <div *ngFor="let skill of skills">
+
             <app-skils [img]="skill.img" [desc]="skill.desc"></app-skils>
+
 
         </div>
 
