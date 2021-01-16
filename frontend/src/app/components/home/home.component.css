@@ -17,13 +17,12 @@ h4 {
 }
 
 .icon {
-    padding: 0px;
+    background-position: center;
+    background-image: url("https://www.flaticon.com/svg/vstatic/svg/924/924874.svg?token=exp=1610734280~hmac=2db6f62cb72fb046f093fefbb8a8501a");
+    width: 100px;
 }
 
-img {
-    padding: 50px;
-}
-
-img:hover {
+.icon:hover {
+    background-image: url("http://www.xaviro.com/assets/img/skills/js.svg");
     cursor: pointer;
 }

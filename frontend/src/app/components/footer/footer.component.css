@@ -7,5 +7,11 @@ span {
 }
 
 .espacio {
+    width: 40px;
+    height: 40px;
     margin: 10px 5px 5px 5px;
+}
+
+.btn-circle {
+    border-radius: 50%;
 }
