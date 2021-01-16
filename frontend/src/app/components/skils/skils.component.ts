@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-skils',
@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkilsComponent implements OnInit {
 
-  constructor() { }
+  
+  @Input() img:string = "";
+  @Input() desc:string = "";
+  constructor() { 
+
+  }
 
   ngOnInit(): void {
   }

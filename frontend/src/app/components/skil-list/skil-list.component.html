@@ -1,1 +1,14 @@
-<p>skil-list works!</p>
+<div class="container">
+    <div class="text-center titulo">
+        <h1>Habilidades</h1>
+    </div>
+    <hr>
+
+    <div class="grid">
+        <div *ngFor="let skill of skills">
+            <app-skils [img]="skill.img" [desc]="skill.desc"></app-skils>
+
+        </div>
+
+    </div>
+</div>
