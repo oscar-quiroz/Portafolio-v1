@@ -1,3 +1,11 @@
 span {
     color: rgb(160, 242, 245);
 }
+
+.redes-sociales li {
+    display: inline;
+}
+
+.espacio {
+    margin: 10px 5px 5px 5px;
+}
