@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SkilListComponent } from './components/skil-list/skil-list.component';
 import { SkilsComponent } from './components/skils/skils.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     SkilListComponent,
     SkilsComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
