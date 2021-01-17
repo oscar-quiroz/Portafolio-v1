@@ -1,12 +1,11 @@
 .container {
-    background-color: rgba(229, 226, 226), ;
-    padding-bottom: 40px;
+    background-color: rgba(229, 226, 226);
     transition: 1.3s;
+    padding-bottom: 40px;
 }
 
 .titulo {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 100px;
 }
 
 .grid {
