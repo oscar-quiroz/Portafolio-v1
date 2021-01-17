@@ -5,6 +5,7 @@ hr {
 
 h1 {
     color: aliceblue;
+    font-size: 50px;
 }
 
 h4 {
@@ -20,9 +21,11 @@ h4 {
     background-position: center;
     background-image: url("https://www.flaticon.com/svg/vstatic/svg/924/924874.svg?token=exp=1610734280~hmac=2db6f62cb72fb046f093fefbb8a8501a");
     width: 100px;
+    transition: 0.3s;
 }
 
 .icon:hover {
+    transition: 0.3s;
     background-image: url("http://www.xaviro.com/assets/img/skills/js.svg");
     cursor: pointer;
 }

@@ -1,6 +1,7 @@
 .container {
-    background-color: rgb(229, 226, 226);
+    background-color: rgba(229, 226, 226), ;
     padding-bottom: 40px;
+    transition: 1.3s;
 }
 
 .titulo {
