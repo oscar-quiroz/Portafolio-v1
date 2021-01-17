@@ -13,13 +13,13 @@ h4 {
 }
 
 .home {
-    background-color: black;
     padding: 80px 30px 30px 60px;
+    background-color: black;
 }
 
 .icon {
-    background-position: center;
     background-image: url("https://www.flaticon.com/svg/vstatic/svg/924/924874.svg?token=exp=1610734280~hmac=2db6f62cb72fb046f093fefbb8a8501a");
+    background-position: center;
     width: 100px;
     transition: 0.3s;
 }

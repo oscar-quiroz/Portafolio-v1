@@ -9,6 +9,7 @@ import { SkilListComponent } from './components/skil-list/skil-list.component';
 import { SkilsComponent } from './components/skils/skils.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { PortafolioComponent } from './components/portafolio/portafolio.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './components/contact/contact.component';
     SkilListComponent,
     SkilsComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    PortafolioComponent
   ],
   imports: [
     BrowserModule,
