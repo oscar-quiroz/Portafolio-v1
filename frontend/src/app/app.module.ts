@@ -10,6 +10,7 @@ import { SkilsComponent } from './components/skils/skils.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
+import { AcercaComponent } from './components/acerca/acerca.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
     SkilsComponent,
     FooterComponent,
     ContactComponent,
-    PortafolioComponent
+    PortafolioComponent,
+    AcercaComponent
   ],
   imports: [
     BrowserModule,
