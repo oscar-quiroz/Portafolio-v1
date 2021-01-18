@@ -3,8 +3,8 @@
     overflow: auto;
     justify-content: flex-start;
     margin: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 40px;
     padding-left: 10px;
     padding-right: 10px;
@@ -68,5 +68,12 @@ img {
 
 .titulo {
     text-align: center;
-    padding: 40px 100px 0px 100px;
+    padding: 40px 50px 0px 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .contenedor-total {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
