@@ -18,9 +18,10 @@ h4 {
 }
 
 .icon {
-    background-image: url("https://www.flaticon.com/svg/vstatic/svg/924/924874.svg?token=exp=1610734280~hmac=2db6f62cb72fb046f093fefbb8a8501a");
+    background-image: url("../../../assets/hacker.svg");
+    background-size: 100px;
     background-position: center;
-    width: 100px;
+    background-repeat: no-repeat;
     transition: 0.3s;
 }
 
