@@ -1,31 +1,33 @@
-<nav class="navbar sticky-top navbar-expand-md ">
+<nav class="navbar sticky-top navbar-expand-md flex-container">
+    <div style="order: 1;">
+        <a class="navbar-brand" href="#">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/1177/1177568.svg?token=exp=1610721308~hmac=86a06cb0329170fa4777a9551cac5077" alt="logo" style="width:40;height:40px;padding-right:125px ;">
+        </a>
 
-    <a class="navbar-brand" href="#">
-        <img src="https://www.flaticon.com/svg/vstatic/svg/1177/1177568.svg?token=exp=1610721308~hmac=86a06cb0329170fa4777a9551cac5077" alt="logo" style="width:40;height:40px;padding-right:125px ;">
-    </a>
+    </div>
+
+    <div id="redes">
+        <button type="button" class="btn  btn-circle"> <i class="fa fa-instagram "></i> </button>
+        <button type="button" class="btn btn-circle "><i class="fa fa-facebook "></i></button>
+        <button type="button" class="btn btn-circle "><i class="fa fa-twitter "></i></button>
+        <button class="navbar-toggler btn btn-circle justify-content-right " type="button " (click)="toggleState() "><i class="fa fa-bars "></i></button>
+    </div>
 
 
-    <div class="navbar-collapse justify-content-center" [ngClass]="{ 'collapse': isCollapse } ">
+    <div class="navbar-collapse justify-content-center" [ngClass]="{ 'collapse': isCollapse } " style="order: 2;">
         <ul class="navbar-nav color">
             <li routerLinkActive="active" class="nav-item ">
                 <a class="nav-link " href="#Portafolio">Portafolio </a>
             </li>
-            <li routerLinkActive="active " class="nav-item ">
+            <li routerLinkActive="active" class="nav-item ">
                 <a class="nav-link " href="#Habilidades">Habilidades</a>
             </li>
-            <li routerLinkActive="active " class="nav-item ">
+            <li routerLinkActive="active" class="nav-item ">
                 <a class="nav-link " href="#Contacto">Contacto</a>
             </li>
 
         </ul>
     </div>
 
-    <div class="derecha">
-        <button type="button" class="navbar-toggler btn  btn-circle  "> <i class="fa fa-instagram "></i> </button>
-        <button type="button" class="navbar-toggler btn  btn-circle  "><i class="fa fa-facebook "></i></button>
-        <button type="button" class="navbar-toggler btn  btn-circle "><i class="fa fa-twitter "></i></button>
-        <button class="navbar-toggler btn  btn-circle  " type="button " (click)="toggleState() "> <i class="fa fa-bars "></i>
-     
-    </button>
-    </div>
+
 </nav>

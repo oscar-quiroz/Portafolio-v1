@@ -1,9 +1,6 @@
 .navbar {
     background-color: black;
-}
-
-i {
-    align-items: flex-start;
+    font-size: 20px;
 }
 
 .btn-circle {
@@ -32,11 +29,12 @@ li a {
 }
 
 a {
-    color: white;
+    color: white !important;
+    ;
 }
 
 a:hover {
-    color: cadetblue;
+    color: cadetblue !important;
 }
 
 li:hover {
@@ -44,6 +42,23 @@ li:hover {
 }
 
 .active {
-    color: cadetblue;
     border-bottom: 2px solid cadetblue;
+    color: cadetblue !important;
+    ;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+}
+
+#redes {
+    order: 3;
+}
+
+@media only screen and (max-width: 800px) {
+    #redes {
+        order: 1;
+        background-color: blue;
+    }
 }
