@@ -1,0 +1,80 @@
+.contenedor {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgb(229, 226, 226);
+}
+
+.grid-container {
+    background-color: white;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px;
+    box-shadow: 10px 10px 47px -5px rgba(0, 0, 0, 0.22);
+    border-radius: 15px;
+}
+
+.grid-container>div {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+img {
+    max-width: 80%;
+    max-height: 100%;
+}
+
+.info {
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.info::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.info::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+.info::-webkit-scrollbar-button:increment,
+.info::-webkit-scrollbar-button {
+    display: none;
+}
+
+.info::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.info::-webkit-scrollbar-thumb {
+    background-color: cadetblue;
+    border-radius: 15px;
+    border: 2px solid #f1f2f3;
+}
+
+.info::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contenedor {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .grid-container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 20px;
+    }
+    img {
+        max-width: auto;
+        max-height: auto;
+    }
+}
