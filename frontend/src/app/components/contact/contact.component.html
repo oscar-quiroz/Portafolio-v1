@@ -9,18 +9,18 @@
 
             <p style="text-align: center;"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, fugit. Fuga quaerat est id qui adipisci ratione, deserunt nihil molestiae aperiam quibusdam nemo, dolores, eveniet cumque minus distinctio porro nam?</p>
         </div>
-        <form class="form">
+        <form class="contact-form" (submit)="sendEmail($event)">
             <div class="form__section">
-                <input type="text" name="" class="form__input bg-light" placeholder="Nombre">
+                <input type="text" name="user_name" class="form__input bg-light" placeholder="Nombre">
             </div>
             <div class="form__section ">
-                <input type="email" name="" class="form__input bg-light" placeholder="Email" required>
+                <input type="email" name="user_email" class="form__input bg-light" placeholder="Email" required>
             </div>
             <div class="form__section ">
-                <textarea type="text" name="" class="form__input bg-light" placeholder="Mensaje"></textarea>
+                <textarea type="text" name="message" class="form__input bg-light" placeholder="Mensaje"></textarea>
             </div>
             <div class="form_section">
-                <input type="submit" class="form__input" name="" id="">
+                <button type="submit" class="form__input" name="" id="">Enviar</button>
             </div>
         </form>
 

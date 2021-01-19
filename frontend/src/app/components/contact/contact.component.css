@@ -10,7 +10,7 @@
         transition: all 1s;
     }
     
-    .form {
+    .contact-form {
         min-width: 400px;
         flex: 1;
         text-align: center;
@@ -32,19 +32,19 @@
         border: 1px solid cadetblue;
     }
     
-    .form textarea {
+    .contact-form textarea {
         min-height: 120px;
         resize: none;
     }
     
-    .form-img {
+    .contact-form-img {
         flex: 1;
         padding: 1;
         display: flex;
         order: 2;
     }
     
-    .form input[type="submit"] {
+    .contact-form input[type="submit"] {
         background-color: cadetblue;
         border-radius: 10px;
         border: 2px solid cadetblue;
@@ -52,21 +52,21 @@
         transition: all 1s;
     }
     
-    form input[type="submit"]:hover {
+    contact-form input[type="submit"]:hover {
         background-color: white;
         border: 2px solid cadetblue;
         color: cadetblue;
         transition: all 1s;
     }
     
-    .form-img img {
+    .contact-form-img img {
         width: auto;
         width: auto;
         margin: auto;
     }
     
     @media only screen and (max-width: 800px) {
-        .form-img>img {
+        .contact-form-img>img {
             transition: all 1s;
             max-width: 300px;
         }
