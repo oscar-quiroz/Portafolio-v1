@@ -18,11 +18,13 @@ h4 {
 }
 
 .icon {
-    background-image: url("../../../assets/hacker.svg");
-    background-size: 100px;
+    background-image: url("../../../assets/OSCAR_ICON.svg");
+    background-size: 250px;
     background-position: center;
     background-repeat: no-repeat;
     transition: 0.3s;
+    width: 250px;
+    height: 250px;
 }
 
 .icon:hover {
